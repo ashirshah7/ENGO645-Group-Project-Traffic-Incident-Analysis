@@ -3,14 +3,15 @@
 This project is a course requirement for **ENGO 645 – Spatial Databases and Data Mining**.
 
 ## 📝 Project Description:
-**Predicting Traffic Incident Hotspots Using Spatial and Temporal Analysis**
+**Spatiotemporal Analysis & Hotspot Detection of Traffic Incidents in Calgary (2017–2024)**
 
-This project focuses on analyzing and predicting traffic incidents in the City of Calgary using spatial and temporal data mining techniques. Traffic disruptions—caused by signal failures, hazardous road conditions, stalled vehicles, or collisions—pose major challenges to urban safety and mobility.
+This project focuses on analyzing and predicting traffic incidents in the City of Calgary using spatial and temporal data mining techniques.
 
 ## 🧠 Objectives:
 Using publicly available traffic incident data, we aim to:
-- 📊 Explore temporal patterns (peak hours, weekdays vs. weekends, seasonal trends).
-- 🗺️ Identify geospatial hotspots using clustering algorithms like **DBSCAN**.
-- 📈 Build a machine learning regression model to predict the frequency of incidents based on spatial and temporal features.
+- Analyze temporal trends 
+- Classify incident severity
+- Identify spatial hotspots using clustering and KDE
+- Predict where and when incidents are likely to occur using classification and count-based models
 
 The results of this project will help reveal **when and where** traffic incidents are most likely to occur, providing actionable insights for traffic planners, emergency responders, and city decision-makers.
